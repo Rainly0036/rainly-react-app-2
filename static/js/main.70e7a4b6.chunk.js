@@ -1,2 +1,0 @@
-(this["webpackJsonprainly-react-app-2"]=this["webpackJsonprainly-react-app-2"]||[]).push([[0],{11:function(e,t,n){"use strict";n.r(t);var c=n(1),a=n.n(c),r=n(3),s=n.n(r),i=(n(8),n(9),n(0));var p=function(){return Object(i.jsx)("div",{className:"App",children:Object(i.jsx)("header",{className:"App-header"})})};s.a.render(Object(i.jsx)(a.a.StrictMode,{children:Object(i.jsx)(p,{})}),document.getElementById("root"))},8:function(e,t,n){},9:function(e,t,n){}},[[11,1,2]]]);
-//# sourceMappingURL=main.70e7a4b6.chunk.js.map
