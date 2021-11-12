@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rainly-react-app-2/static/css/main.faaa3cd6.chunk.css",
-    "main.js": "/rainly-react-app-2/static/js/main.d8bfeb0b.chunk.js",
-    "main.js.map": "/rainly-react-app-2/static/js/main.d8bfeb0b.chunk.js.map",
+    "main.js": "/rainly-react-app-2/static/js/main.c9ac65de.chunk.js",
+    "main.js.map": "/rainly-react-app-2/static/js/main.c9ac65de.chunk.js.map",
     "runtime-main.js": "/rainly-react-app-2/static/js/runtime-main.7988fdf6.js",
     "runtime-main.js.map": "/rainly-react-app-2/static/js/runtime-main.7988fdf6.js.map",
     "static/js/2.c970cd05.chunk.js": "/rainly-react-app-2/static/js/2.c970cd05.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.7988fdf6.js",
     "static/js/2.c970cd05.chunk.js",
     "static/css/main.faaa3cd6.chunk.css",
-    "static/js/main.d8bfeb0b.chunk.js"
+    "static/js/main.c9ac65de.chunk.js"
   ]
 }
