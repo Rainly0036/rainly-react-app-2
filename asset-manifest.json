@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rainly-react-app-2/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/rainly-react-app-2/static/js/main.70e7a4b6.chunk.js",
+    "main.js.map": "/rainly-react-app-2/static/js/main.70e7a4b6.chunk.js.map",
+    "runtime-main.js": "/rainly-react-app-2/static/js/runtime-main.7988fdf6.js",
+    "runtime-main.js.map": "/rainly-react-app-2/static/js/runtime-main.7988fdf6.js.map",
+    "static/js/2.95b44fee.chunk.js": "/rainly-react-app-2/static/js/2.95b44fee.chunk.js",
+    "static/js/2.95b44fee.chunk.js.map": "/rainly-react-app-2/static/js/2.95b44fee.chunk.js.map",
+    "index.html": "/rainly-react-app-2/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/rainly-react-app-2/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.95b44fee.chunk.js.LICENSE.txt": "/rainly-react-app-2/static/js/2.95b44fee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7988fdf6.js",
+    "static/js/2.95b44fee.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.70e7a4b6.chunk.js"
+  ]
+}
