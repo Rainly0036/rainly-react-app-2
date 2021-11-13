@@ -1,21 +1,38 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 
-export const useFetch = (url) => {
+export const useFetch = (url, _options) => {
   const [data, setData] = useState(null)
   const [isPending, setIsPending] = useState(false)
   const [error, setError] = useState(null)
+  const options = useRef(_options).current
 
   useEffect(() => {
+    console.log(options)
+    const controller = new AbortController()
     const fetchData = async () => {
       setIsPending(true)
-      const res = await fetch(url)
-      const data = await res.json()
-      setIsPending(false)
-      setData(data)
+      try {
+        const res = await fetch(url, { signal: controller.signal})
+        if (!res.ok) throw new Error(res.statusText)
+        const data = await res.json()
+        setIsPending(false)
+        setData(data)
+      } catch (err) { 
+        if (err.name === "AbortError") {
+          console.log("the fetch was aborted")
+        } else {
+          setIsPending(false)
+          setError(`Failed to load the data. Quick reminder: json-server --watch ./data/db.json`) 
+        }
+      }
     }
 
     fetchData()
-  }, [url])
 
-  return { data, isPending }
+    return () => { 
+      controller.abort()
+    }
+  }, [url, options])
+
+  return { data, isPending, error }
 }
